@@ -70,4 +70,13 @@ void main() {
     print("Mais uma repetição");
     energia -= 20;
   } while (energia > 0);
+
+  // Null safety
+  // ? -> Allow null
+  // ! / late -> allow null assignment, but use it only when it is not null
+  int? nullSafety = null;
+  late int lateAssign;
+  lateAssign = 1;
+  print(lateAssign);
+
 }

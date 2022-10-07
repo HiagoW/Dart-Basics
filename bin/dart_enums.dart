@@ -1,3 +1,5 @@
+import 'transporte.dart';
+
 void main() {
   escolherMeioTransporte(Transporte.bike);
   escolherMeioTransporte(Transporte.aviao);
@@ -14,14 +16,4 @@ void escolherMeioTransporte(Transporte locomocao) {
     default:
       print("Vou para aventura");
   }
-}
-
-enum Transporte {
-  carro,
-  bike,
-  andando,
-  skate,
-  aviao,
-  patins,
-  trem
 }

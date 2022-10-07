@@ -1,3 +1,6 @@
+import 'transporte.dart';
+import 'viagem.dart';
+
 void main() {
   var meuNumero = 7.1;
   print(meuNumero.runtimeType);
@@ -7,13 +10,7 @@ void main() {
   meuNumero2 = "test";
   print(meuNumero2.runtimeType);
 
-  Viagem viagemHoje = Viagem();
+  Viagem viagemHoje = Viagem(locomocao: Transporte.aviao);
   print(Viagem.codigoTrabalho);
   print(viagemHoje.dinheiro);
-}
-
-class Viagem {
-  static String codigoTrabalho = "TEST";
-  double dinheiro = 0;
-
 }

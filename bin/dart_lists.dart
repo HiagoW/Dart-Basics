@@ -1,7 +1,3 @@
-import 'dart:io';
-
-import 'package:projeto_inicial/projeto_inicial.dart' as projeto_inicial;
-
 void main() {
   List<String> list = ["Richart", "Ruan", "da", "Silva", "Lima"];
 

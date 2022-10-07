@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import 'package:projeto_inicial/projeto_inicial.dart' as projeto_inicial;
-
 void main() {
   print("Qual a sua idade?");
   String? input = stdin.readLineSync();
